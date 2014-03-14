@@ -1,10 +1,11 @@
 Emacs Lisp port of Dark Souls. Prepare to die.
 
-To start playing in the current buffer:
-
-```elisp
-(require 'dark-souls)
+Dark Souls is now available on [MELPA](http://melpa.milkbox.net/)!
 ```
+M-x package-install dark-souls
+```
+
+To start playing in the current buffer:
 
 ```
 M-x dark-souls-mode
